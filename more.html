@@ -10,6 +10,7 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -33,10 +34,10 @@
         <span class="heaer__icon">
           <i class="fas fa-search"></i>
         </span>
-        <span class="heaer__icon">
+        <span class="header__icon">
           <i class="fas fa-qrcode"></i>
         </span>
-        <span class="heaer__icon">
+        <span class="header__icon">
           <a href="settings.html">
             <i class="fas fa-cog"></i>
           </a>
@@ -48,7 +49,11 @@
       <header class="more__header">
         <div class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/avatar.jpg" alt="" class="g-avatar" />
+            <img
+              src="images/avatar.jpg"
+              alt=""
+              class="g-avatar friend__avatar"
+            />
             <div class="friend__content">
               <span class="friend__name">
                 Eom Dongsoo
@@ -91,9 +96,9 @@
           </li>
         </ul>
       </header>
-      <section class="more__suggestion">
+      <section class="more__suggestions">
         <h5 class="more__title">Suggestions</h5>
-        <ul class="more__suggestion-list">
+        <ul class="more__suggestions-list">
           <li class="more__suggestion suggestion">
             <span class="suggestion__icon"
               ><i class="fas fa-quote-right fa-2x"></i
@@ -125,6 +130,7 @@
         </li>
         <li class="nav__list-itme">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
@@ -140,5 +146,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small</span>
+    </div>
   </body>
 </html>
